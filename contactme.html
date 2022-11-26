@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Emmanuella</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <section>
+        <form action="./server.html" method="post">
+        <p>
+        <label for="name1">Name</label>
+        <input required type="text" name="greet" id="">
+        </p>
+        <p>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="myemail">
+        </p>
+        <p>
+        <label for="Telephone">Telephone</label>
+        <input type="telephone" name="telephone" id="">
+        </p>
+        <fieldset>
+            <legend>Best time to call</legend>
+        <label> 
+        <input type="radio" name="time1" value="morning" id="morning"> Morning</label>
+        </p>
+        <p>
+            <label>
+                <input type="radio" name="time2" value="afternoon" id="afternoon"> Afternoon</label>
+        </p>
+        <p>
+            <label>
+                <input type="radio" name="time2" value="evening" id="evening"> Evening</label>
+        </p>
+        </fieldset>
+        <p> 
+            <label for="asap">ASAP</label>
+            <input type="checkbox" name="asap" id="asap">
+            <select name="reason" id="reason">
+                <option value="To check error in my code">Code</option>
+                <option value="To repair our cars">Car Repair</option>
+                <option value="will not be able to attend class">Class</option>
+            </select>
+        </p>
+        <p>
+            <label for="reason">Reason for contact</label>
+        </p>
+        <p>
+            <textarea placeholder="brief explanation" name="comment" cols="30" rows="10"> Say your issue</textarea>
+        </p>
+            <input type="submit" value="send">
+            <button type="submit">Reply</button> 
+        </form>
+    </section>
+</body>
+</html>
